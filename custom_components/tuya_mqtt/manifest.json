@@ -1,0 +1,10 @@
+{
+    "domain": "tuya_mqtt",
+    "name": "Tuya MQTT",
+    "codeowners": [],
+    "dependencies": ["mqtt"],
+    "documentation": "",
+    "iot_class": "cloud_push",
+    "requirements": [],
+    "version": "0.1.0"
+  }
