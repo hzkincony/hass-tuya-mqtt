@@ -1,6 +1,6 @@
 {
     "domain": "tuya_mqtt",
-    "name": "Tuya MQTT",
+    "name": "Kincony Tuya MQTT",
     "codeowners": ["kincony"],
     "dependencies": ["mqtt"],
     "documentation": "https://github.com/hzkincony/hass-tuya-mqtt",
