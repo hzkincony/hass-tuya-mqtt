@@ -1,5 +1,5 @@
 {
-    "name": "Tuya MQTT",
+    "name": "Kincony Tuya MQTT",
     "render_readme": true,
     "zip_release": true,
     "filename": "tuya_mqtt.zip"
