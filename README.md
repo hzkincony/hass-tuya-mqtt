@@ -5,7 +5,14 @@
 tuya_mqtt:
   device_id: xxxx
   device_secret: xxxx
-  region: cn
+  # region: eu, us, eus, weu, in, cn
+  # eu: Central Europe Data Center
+  # us: US West Data Center
+  # eus: US East Data Center
+  # weu: Western Europe Data Center
+  # in: India Data Center
+  # cn: Chinese Data Center
+  region: eu 
   tuya_switch:
     - bind_id: switch.kitchen_light
       dp_key_rw: output1
