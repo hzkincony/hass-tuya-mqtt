@@ -1,0 +1,6 @@
+{
+    "name": "Tuya MQTT",
+    "render_readme": true,
+    "zip_release": true,
+    "filename": "tuya_mqtt.zip"
+}
