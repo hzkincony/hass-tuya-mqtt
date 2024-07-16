@@ -1,4 +1,5 @@
 # Hass Tuya Mqtt
+Tuya integration for home assistant using KinCony IoT products
 
 ## Example
 ```yaml
