@@ -1,4 +1,4 @@
-# Hass Tuya Mqtt
+# Kincony Tuya Mqtt
 Tuya integration for home assistant using KinCony IoT products
 Component use for KinCony Server16 / Server-Mini Raspberry Pi controller
 
@@ -7,7 +7,7 @@ Let KinCony Server16 / Server-Mini controller can work with Tuya app, remote con
 
 ## Example
 ```yaml
-tuya_mqtt:
+kincony_tuya_mqtt:
   device_id: xxxx
   device_secret: xxxx
   # region: eu, us, eus, weu, in, cn

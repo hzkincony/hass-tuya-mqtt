@@ -12,14 +12,14 @@ jobs:
 
       - name: ZIP Component Dir
         run: |
-          cd ${{ github.workspace }}/custom_components/tuya_mqtt
-          zip -r tuya_mqtt.zip ./
+          cd ${{ github.workspace }}/custom_components/kincony_tuya_mqtt
+          zip -r kincony_tuya_mqtt.zip ./
 
       - name: Upload zip to release
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ${{ github.workspace }}/custom_components/tuya_mqtt/tuya_mqtt.zip
-          asset_name: tuya_mqtt.zip
+          file: ${{ github.workspace }}/custom_components/kincony_tuya_mqtt/kincony_tuya_mqtt.zip
+          asset_name: kincony_tuya_mqtt.zip
           tag: ${{ github.ref }}
           overwrite: true

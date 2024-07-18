@@ -18,7 +18,7 @@ TUYA_MQTT_REGIONS = {
     "in": "m1.tuyain.com" # 印度数据中心
 }
 
-class TuyaMqttClient:
+class KinconyTuyaMqttClient:
     def __init__(self, device_id, device_secret, region):
         self.device_id = device_id
         self.device_secret = device_secret
@@ -33,7 +33,7 @@ class TuyaMqttClient:
         client_id = f"tuyalink_{self.device_id}"
         client = mqtt.Client(protocol=mqtt.MQTTv311, client_id=client_id)
         self.client = client
-        cert_path = "./custom_components/tuya_mqtt/tuya.crt"
+        cert_path = "./custom_components/kincony_tuya_mqtt/tuya.crt"
         client.tls_set(ca_certs=cert_path, tls_version=ssl.PROTOCOL_TLSv1_2)
         client.tls_insecure_set(True)
         username, password = self.generate_username_and_password()
