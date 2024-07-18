@@ -18,7 +18,7 @@ TUYA_MQTT_REGIONS = {
     "in": "m1.tuyain.com" # 印度数据中心
 }
 
-class TuyaMqttClient:
+class KinconyTuyaMqttClient:
     def __init__(self, device_id, device_secret, region):
         self.device_id = device_id
         self.device_secret = device_secret

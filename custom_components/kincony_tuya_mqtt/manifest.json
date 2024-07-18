@@ -1,5 +1,5 @@
 {
-    "domain": "tuya_mqtt",
+    "domain": "kincony_tuya_mqtt",
     "name": "Kincony Tuya MQTT",
     "codeowners": ["kincony"],
     "dependencies": ["mqtt"],

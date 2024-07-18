@@ -9,9 +9,9 @@ import voluptuous as vol
 from homeassistant.core import callback
 from homeassistant.helpers.event import async_track_state_change_event
 from homeassistant.helpers import config_validation as cv
-from .tuya_mqtt import TuyaMqttClient
+from .tuya_mqtt import KinconyTuyaMqttClient
 
-DOMAIN = "tuya_mqtt"
+DOMAIN = "kincony_tuya_mqtt"
 
 _LOGGER = logging.getLogger(__name__)
 
@@ -68,7 +68,7 @@ async def async_setup(hass, config):
     region = conf["region"]
     tuya_switches = conf.get(CONF_TUYA_SWITCH, [])
     tuya_binary_sensors = conf.get(CONF_TUYA_BINARY_SENSOR, [])
-    tuya_mqtt_client = TuyaMqttClient(device_id, device_secret, region)
+    tuya_mqtt_client = KinconyTuyaMqttClient(device_id, device_secret, region)
 
     bind_entity_ids = []
     tuya_bind_switch_dict = {}
