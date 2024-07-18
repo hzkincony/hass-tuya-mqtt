@@ -9,7 +9,7 @@ import voluptuous as vol
 from homeassistant.core import callback
 from homeassistant.helpers.event import async_track_state_change_event
 from homeassistant.helpers import config_validation as cv
-from .tuya_mqtt import KinconyTuyaMqttClient
+from .kincony_tuya_mqtt import KinconyTuyaMqttClient
 
 DOMAIN = "kincony_tuya_mqtt"
 
