@@ -3,7 +3,7 @@ Tuya integration for home assistant using KinCony IoT products
 
 ## Example
 ```yaml
-tuya_mqtt:
+kincony_tuya_mqtt:
   device_id: xxxx
   device_secret: xxxx
   # region: eu, us, eus, weu, in, cn
